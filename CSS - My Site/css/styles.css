@@ -1,34 +1,52 @@
+/* Color Palette
+    #FEF5ED
+    #D3E4CD
+    #ADC2A9
+    #99A799 */
+
 h1 {
-    margin-top: 0;
+    margin: 50px auto 0 auto;
     font-family: 'Sacramento', cursive;
+    font-size: 5.62em;
+    color: #99A799;
+    line-height: 2;
 }
 
 h2 {
     font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: #99A799;
 }
 
 h3 {
     font-family: 'Montserrat', sans-serif;
+    color: #ADC2A9;
+}
+
+a {
+    color: #ADC2A9;
 }
 
 body {
     margin: 0;
     text-align: center;
     font-family: 'Merriweather';
+
 }
 
 .top-container {
-    background-color: #D1E8E4;
+    background-color: #FEF5ED;
     position: relative;
     padding-top: 100px;
  }
  
 .middle-container {
-
+    background-color: #FEF5ED;
 }
 
 .bottom-container {
-
+    background-color: #FEF5ED;
 }
 
 .top-cloud {
@@ -41,5 +59,41 @@ body {
     position: absolute;
     left: 300px;
     bottom: 300px;
+}
 
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.computer-img {
+    width: 10%;
+}
+
+.problem-solving-img {
+    width: 25%;
+    float: left;
+    padding-right: 30px;
+}
+
+.process-improvement-img {
+    width: 25%;
+    float: right;
+    padding-left: 30px;
+}
+
+.brewing-img {
+    width: 25%;
+    width: 25%;
+    float: left;
+    padding-right: 10px;
+}
+
+.lowandslow-img {
+    width: 25%;
+    width: 25%;
+    float: left;
+    padding-right: 30px;
 }
