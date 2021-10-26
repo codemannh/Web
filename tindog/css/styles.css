@@ -9,6 +9,31 @@ h1 {
   font-weight: 900;
 }
 
+h3 {
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+  padding: 15px 0;
+  font-weight: 900;
+}
+
+.feature-box {
+  text-align: center;
+}
+
+.features-p {
+  color: #8f8f8f;
+}
+
+.icon {
+  font-size: 4rem;
+  color: #EF8172;
+  padding: 0;
+}
+
+.icon:hover {
+  color: #FF4C68;
+}
+
 .container-fluid {
   padding: 3% 15%;
 }
@@ -35,7 +60,7 @@ h1 {
 
 .nav-link {
   font-family: "Montserrat";
-  font-weight: light;
+  font-weight: 100;
   font-size: 1.2rem;
 }
 
@@ -48,4 +73,10 @@ h1 {
 .title-img {
   width: 60%;
   transform: rotate(25deg);
+}
+
+/* Features Section */
+
+#features {
+  padding: 7% 7%;
 }
